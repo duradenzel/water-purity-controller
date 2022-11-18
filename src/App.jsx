@@ -7,9 +7,6 @@ import Stat from "./components/Stat"
 import SimpleLineChart from "./components/SimpleLineChart"
 
 function App() {
-  
-  
-
   return (
   <div className="App">
    <Navbar/>
