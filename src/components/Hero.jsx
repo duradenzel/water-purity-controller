@@ -13,8 +13,8 @@ const Hero = () => {
       </h1>
       <p className="mb-8 leading-relaxed">We find it important that everyone has access to clean drinking water. Klarity is made to check water clarity, making sure that it is safe to drink. Bodies of water can contain lots of different particles that are not detectable with the human eye. We make use of next generation technology to detect water clarity. Our device “Klearly” has highly capable TDS-sensors able to detect all kinds of invisible particles.</p>
       <div className="flex justify-center">
-        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
-        <button className="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+        <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Learn more!</button>
+       
       </div>
     </div>
   </div>
