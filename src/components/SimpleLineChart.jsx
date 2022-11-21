@@ -3,8 +3,6 @@ import { PureComponent } from 'react';
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
 
 const SimpleLineChart = ({chartData}) => {
-
-
  
   return (
     <div className='w-full h-full'>
@@ -26,8 +24,8 @@ const SimpleLineChart = ({chartData}) => {
           <YAxis stroke='#f4f4f4'/>
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="Temperature" stroke="#f87" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="TDS_Value" stroke="#c228ee " />
+          <Line type="monotone" dataKey="temp" stroke="#f87" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="tds_value" stroke="#c228ee " />
         </LineChart>
       </ResponsiveContainer>
     </div>
