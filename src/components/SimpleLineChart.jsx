@@ -24,8 +24,8 @@ const SimpleLineChart = ({chartData}) => {
           <YAxis stroke='#f4f4f4'/>
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="temp" stroke="#f87" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="tds_value" stroke="#c228ee " />
+          <Line type="monotone" dataKey="temp" stroke="#c228ee" activeDot={{ r: 8 }} />
+          <Line type="monotone" dataKey="tds_value" stroke="#f87 " />
         </LineChart>
       </ResponsiveContainer>
     </div>

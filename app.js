@@ -2,10 +2,8 @@ import  Express  from "express";
 import mysql from "mysql";
 import bodyParser from "body-parser";
 import cors from "cors";
-//const express = require("express");
-//const mysql = require("mysql");
-//const bodyParser = require('body-parser');
-const PORT = process.env.PORT || 3001;
+
+const PORT = 3001;
 const app = Express();
 
 app.use(cors());
