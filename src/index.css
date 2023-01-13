@@ -16,3 +16,102 @@ background: linear-gradient(142deg, rgba(23,17,47,1) 15%, rgba(20,20,85,1) 53%, 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.custom-shape-divider-bottom-1669991788 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1669991788 svg {
+    position: relative;
+    display: block;
+    width: calc(175% + 1.3px);
+    height: 124px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1669991788 .shape-fill {
+    fill: #FFFFFF;
+}
+
+.gradient-blue-purple{
+    background: hsla(294, 100%, 55%, 1);
+
+    background: linear-gradient(60deg, hsla(294, 100%, 55%, 1) 0%, hsla(254, 89%, 35%, 1) 95%, hsla(251, 90%, 34%, 1) 100%);
+    
+    background: -moz-linear-gradient(60deg, hsla(294, 100%, 55%, 1) 0%, hsla(254, 89%, 35%, 1) 95%, hsla(251, 90%, 34%, 1) 100%);
+    
+    background: -webkit-linear-gradient(60deg, hsla(294, 100%, 55%, 1) 0%, hsla(254, 89%, 35%, 1) 95%, hsla(251, 90%, 34%, 1) 100%);
+}
+
+
+
+
+
+input[type="range"]::-webkit-slider-runnable-track {
+    -webkit-appearance: none;
+    border-radius:10px;
+    
+    background: #4776e6; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #ff0000,
+      #ffff00,
+      #00ff00,
+      #00ff00,
+      #00ff00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(
+      to right,
+      #ff0000,
+      #ffff00,
+      #00ff00,
+      #00ff00,
+      #00ff00
+    ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 7.5px;
+  }
+  input[type="range"]:focus {
+    outline: none;
+  }
+
+
+  
+
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 2px solid;
+    height: 30px;
+    width: 30px;
+    max-width: 80px;
+    position: relative;
+    bottom: 5px;
+    cursor: -webkit-grab;
+  -webkit-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+  }
+
+  input[type="range"]::-moz-range-thumb {
+    -moz-appearance: none;
+    border: 2px solid;
+    border-radius: 10%;
+    height: 25px;
+    width: 25px;
+    max-width: 80px;
+    position: relative;
+    bottom: 5px;
+    background: red;
+    cursor: -moz-grab;
+    -moz-transition: border 1000ms ease;
+    transition: border 1000ms ease;
+  }
+
+  .tickChange{
+    background: red !important;
+  }
